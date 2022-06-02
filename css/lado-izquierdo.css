@@ -1,0 +1,94 @@
+.lado-izquierdo{
+    width: 65%;
+    height: 70%;
+    margin-left: 5em;
+    flex-flow: row wrap;
+    color: #e5e5e5;
+    font-weight: bolder;
+}
+
+#entrada{                   /* CAJA DE TEXTO ENTRADA*/
+    width: 80%;
+    margin: 1em 6em auto 0;
+    border: none;
+    resize: none;
+    outline: none;
+    color: azure;
+    background-color: rgb(236, 225, 208,0);
+    
+}
+
+.alert{
+    display:inline-flex;
+    margin-top: 9.5em;
+    padding-left: 1em;
+    font-size: 0.5em;
+}
+
+.alert p{
+    padding-left: 0.5em;
+}
+
+.alert p:hover{
+    text-shadow: white 0px 0px 2px;
+}
+
+.encriptar{                 /*DIV BOTONES ENCRIPTAR*/
+    width: 80%;             
+}
+
+#encriptador-btn{
+    /* Recuadro*/
+    padding: 0.5em 0em;
+    background-color: rgb(73, 46, 4);
+    border: none;
+    box-shadow: 0px 0px 10px white;
+    width: 40%;
+    margin-right: 15%;
+    
+    
+    /* Texto*/
+    color: whitesmoke;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+#encriptador-btn:hover{
+    box-shadow: 0px 0px 30px white; 
+}
+
+#encriptador-btn:active{
+    transform: scale(1.02);
+}
+
+#desencriptador-btn{
+    /* Recuadro*/
+    padding: 0.5em 0em;
+    width: 40%;
+    border: 1px solid rgb(73, 46, 4);
+    box-sizing: border-box;
+    background-color: rgb(236, 225, 208);
+    
+    /* Texto*/
+    color: rgb(73, 46, 4);
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+#desencriptador-btn:hover{
+    box-shadow: 0px 0px 10px white;
+    font-weight: 600; 
+    background: linear-gradient(to bottom right, white,grey);
+    
+}
+
+#desencriptador-btn:active{
+    transform: scale(1.02);
+}
+

@@ -1,0 +1,38 @@
+@media screen and (max-width:375px){
+    
+    .encriptar{
+        width: 100%;
+        margin: 0px;
+    }
+
+    #encriptador-btn, #desencriptador-btn{
+        width: 100%;
+        flex-direction: column;
+        margin:10px 0px 0px 0px;
+        align-items: center;
+       
+    }
+
+    .doll{
+        display: none;
+    }
+
+    .lado-derecho{
+        width: 80%;
+    }
+
+    .contacto{
+        flex-flow: row nowrap;
+    }
+
+    .contacto p{
+        width: 30%;
+        font-size: 12px;
+    }
+
+    .imagenes img{
+        margin-right:auto ;
+    }
+
+    
+}

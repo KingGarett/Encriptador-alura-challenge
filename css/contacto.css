@@ -1,0 +1,68 @@
+.contacto{
+    margin-top: 1em;
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-image: url(../img/footer.png);
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:0em;
+    margin-left: 1em;
+}
+
+.contacto p{
+
+    font-size: 30px;
+    width: 20%;
+    font-family: 'Amatic SC';
+    color: black;
+    font-weight: bold;
+}
+
+.contacto p:hover{
+    transform: scale(1.1);
+    text-shadow: black 0px 0px 1px;
+    transition: 0.4s;
+}
+
+.imagenes{
+    width: 40%;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    
+  
+}
+
+.instagram{
+    width: 8%;
+    margin-right: 2em;
+}
+
+.instagram:hover{
+    transform: rotate(15deg);
+    transition: 0.4s;
+}
+
+.linkedin{
+    width: 8%;
+    margin-right: 2em;
+}
+.linkedin:hover{
+    transform: rotate(15deg);
+    transition: 0.4s;
+}
+
+.github{
+    width: 9%;
+}
+
+.github:hover{
+    transform: rotate(15deg);
+    transition: 0.4s;
+}
+
+
+

@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px){
+    *{
+        flex-direction: column;
+    }
+
+    
+    .lado-derecho, .lado-izquierdo{
+        margin: 0px auto;
+        width:80%
+    }
+
+    .lado-izquierdo{
+        margin: 0px auto;
+        
+    }
+    #entrada{
+        width: 100%;
+    }
+
+    
+    .alert{
+        margin: 0px;
+        width: 80%;
+        flex-direction: row;
+        
+    }
+
+    #encriptador-btn, #desencriptador-btn{
+        width: 48%;
+        flex-direction: row;
+        margin: 0px;
+       
+    }
+
+    .encriptar{
+        margin: 0px;
+        width: 100%;
+        flex-wrap: nowrap;
+        
+    }
+
+    .lado-derecho{
+        margin: 10px auto;
+        width: 75%;
+        
+    }
+
+    #segmento-derecho{
+        width: 80%;
+    }
+
+    #salida{
+        width: 80%;
+    }
+
+    
+    .contacto{
+        width: 80%;
+        margin: 1em auto;
+    }
+
+    .contacto p{
+        font-size: 20px;
+    }
+
+    .imagenes img{
+        width: 14%;
+    }
+    .imagenes .github{
+        width: 16%;
+    }
+
+}

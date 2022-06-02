@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    box-sizing: border-box;
+    
+    
+}
+
+::placeholder{
+    color: rgb(255,255,255,0.8);
+}
+
+.tres{
+    width: 3%;
+}
+
+body{
+    background-image: url(../img/5120x3200_texture-wooden-wood-brown.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0em 2em;
+    height: 5%;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+.tenedor{
+    width: 13%;
+    height: 8%;
+}
+
+.cuchillo{
+    width: 13%;
+    height: 8%;
+}
+
+header h1{
+    margin: 0em 0.5em;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    font-family: 'Amatic SC';
+    
+}
+
+header h1:hover{
+    color: rgb(228, 226, 139);
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    flex-direction: row;
+}
+
