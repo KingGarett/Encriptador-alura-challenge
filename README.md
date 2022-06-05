@@ -17,5 +17,4 @@
 - Trello 
 - Publicar y usar git / github. <br> 
 
-Resultado click en este [link](https://kinggarett.github.io/Encriptador-alura-challenge
-/)
+Resultado click en este [link](https://kinggarett.github.io/Encriptador-alura-challenge/)
