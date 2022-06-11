@@ -9,7 +9,7 @@
 
 #entrada{                   /* CAJA DE TEXTO ENTRADA*/
     width: 80%;
-    margin: 1em 6em auto 0;
+    margin: 1em 0;
     border: none;
     resize: none;
     outline: none;
